@@ -1,0 +1,26 @@
+
+# Zero Vault sensitive files
+**/credentials.json
+**/token.json
+**/token.json.backup
+
+# Python environments
+**/.venv/
+**/venv/
+**/__pycache__/
+
+# Local databases
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Backup files
+**/*.backup
+**/*.bak
+**/*.old
+**/*.tmp
+
+# Environment secrets
+**/.env
+**/.env.*
+!**/.env.example
